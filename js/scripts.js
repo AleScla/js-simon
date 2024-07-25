@@ -3,6 +3,8 @@
 function getRndInteger(min, max) {
     return Math.floor(Math.random() * (max - min + 1) ) + min;
 }
+
+// variabili
 let randomNmb = [];
 let userArray = [];
 let userNmb
@@ -65,7 +67,7 @@ setTimeout(function(){
         }, 5000); // refresha la pagina dopo 5 secondi dal risultato
     }
     else {
-        document.getElementById('correct-numbers').innerHTML = 'Non hai indovinato proprio niente, sei proprio un R.F.' 
+        document.getElementById('correct-numbers').innerHTML = 'Non hai indovinato proprio niente, BUUUUU' 
         setTimeout(function(){
             location.reload();
         }, 5000); // refresha la pagina dopo 5 secondi dal risultato
